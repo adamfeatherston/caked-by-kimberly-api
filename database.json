@@ -1,0 +1,193 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Kimberly Featherston",
+      "email": "kimberlyfeatherston1@gmail.com",
+      "phone": "(256) 431-6116",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Adam Featherston",
+      "email": "j.adam.featherston@gmail.com",
+      "phone": "(865) 414-8374",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "caked by Kimblery",
+      "email": "cakedbyKimberly@gmail.com",
+      "phone": "(256) 431-6116",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "fullName": "Featherston Family",
+      "email": "thefeatherstonfam@gmail.com",
+      "phone": "(865) 414-8374",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Gina East",
+      "email": "zbbgrl@yahoo.com",
+      "phone": "(256) 426-3812",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Mark Featherston",
+      "email": "j.featherston@att.net",
+      "phone": "(615) 504-5572",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "fullName": "Ginny Featherston",
+      "email": "ginny.featherston@outlook.com",
+      "phone": "(615) 504-2034",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "fullName": "Susan Eastep",
+      "email": "eastep.susan5@gmail.com",
+      "phone": "(256) 431-3167",
+      "isStaff": false
+    },
+    {
+      "fullName": "Jim Bob Cooter",
+      "email": "greatestvolname@utsports.com",
+      "phone": "(865) 123-4567",
+      "isStaff": false,
+      "id": 9
+    }
+  ],
+  "cakeOrders": [
+    {
+      "id": 1,
+      "userId": 4,
+      "dateNeeded": "",
+      "address": "179 Roberta Dr. Hendersonville, TN 37075",
+      "numberOfEaters": 5,
+      "description": "Theme, color scheme, other notes are placed here",
+      "messageOnCake": "brief words that can go on top",
+      "cakeFlavorId": 2,
+      "cakeIcingId": 2,
+      "cakeFillingId": 1,
+      "cakeDesignId": 1,
+      "beingBaked": false
+    },
+    {
+      "id": 2,
+      "userId": 6,
+      "dateNeeded": "",
+      "address": "9012 Poplar Creek Rd",
+      "numberOfEaters": 6,
+      "description": "Test order #2",
+      "messageOnCake": "granddaddy test",
+      "cakeFlavorId": 1,
+      "cakeIcingId": 3,
+      "cakeFillingId": 2,
+      "cakeDesignId": 3,
+      "beingBaked": false
+    }
+  ],
+  "cakeFlavors": [
+    {
+      "id": 1,
+      "flavor": "Chocolate"
+    },
+    {
+      "id": 2,
+      "flavor": "Peanut Butter"
+    },
+    {
+      "id": 3,
+      "flavor": "Red Velvet"
+    },
+    {
+      "id": 4,
+      "flavor": "Oreo"
+    },
+    {
+      "id": 5,
+      "flavor": "Strawberry"
+    },
+    {
+      "id": 6,
+      "flavor": "Vanilla"
+    },
+    {
+      "id": 7,
+      "flavor": "Lemon"
+    },
+    {
+      "id": 8,
+      "flavor": "FunFetti"
+    }
+  ],
+  "cakeIcings": [
+    {
+      "id": 1,
+      "icing": "Chocolate"
+    },
+    {
+      "id": 2,
+      "icing": "Peanut Butter"
+    },
+    {
+      "id": 3,
+      "icing": "Cream Cheese"
+    },
+    {
+      "id": 4,
+      "icing": "Oreo"
+    },
+    {
+      "id": 5,
+      "icing": "Strawberry"
+    },
+    {
+      "id": 7,
+      "icing": "Vanilla"
+    },
+    {
+      "id": 8,
+      "icing": "Lemon"
+    }
+  ],
+  "cakeFillings": [
+    {
+      "id": 1,
+      "filling": "Chocolate Ganache"
+    },
+    {
+      "id": 2,
+      "filling": "Strawberry"
+    },
+    {
+      "id": 3,
+      "filling": "Raspberry"
+    }
+  ],
+  "cakeDesigns": [
+    {
+      "id": 1,
+      "design": "Naked"
+    },
+    {
+      "id": 2,
+      "design": "Rosette"
+    },
+    {
+      "id": 3,
+      "design": "Rustic"
+    },
+    {
+      "id": 4,
+      "design": "Traditional"
+    }
+  ]
+}
